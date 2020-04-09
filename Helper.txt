@@ -1,0 +1,22 @@
+Save changes :
+- copy run start
+
+Enanble interface :
+
+On router :
+- en
+- conf t
+- int [Interface]
+- ip add [address] [mask]
+- no shut
+- exit
+
+Setup DHCP :
+
+On router :
+- en
+- conf t
+- ip dhcp pool [space name]
+- net [network] [mask]
+- default [default gateway network.1]
+- exit
