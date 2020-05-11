@@ -20,3 +20,14 @@ On router :
 - net [network] [mask]
 - default [default gateway network.1]
 - exit
+
+Setup OSPF :
+
+On router :
+- en
+- conf t
+- router ospf [id ospf]
+- net [network] [mask] area 0
+- exit
+
+
